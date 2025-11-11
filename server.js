@@ -30,7 +30,7 @@ db.run(`CREATE TABLE IF NOT EXISTS videos (
 // --- Discord OAuth2 config ---
 const CLIENT_ID = "1379115115353342053";
 const CLIENT_SECRET = "byz6VxBG3xDsIcYSOw1V1vFNFL7PboGi";
-const CALLBACK_URL = "http://localhost:3000/auth/discord/callback";
+const CALLBACK_URL = "https://alex84010.github.io/luxtube3.github.io/account.html/auth/discord/callback";
 
 // --- Passport config ---
 passport.use(
